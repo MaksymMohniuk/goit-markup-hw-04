@@ -126,6 +126,10 @@ button {
   padding-bottom: 32px;
 }
 
+.menu-link-mail {
+  margin-right: 30px;
+}
+
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
@@ -144,6 +148,22 @@ button {
 .menu-link-tel:hover,
 .menu-link-tel:focus {
   color: var(--accent-color);
+}
+
+.header-contacts-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-contacts-icon:hover,
+.header-contacts-icon:focus {
+  fill: var(--accent-color);
+  cursor: pointer;
+}
+
+.header-contacts-icon {
+  margin-right: 10px;
 }
 
 .hero-section,
@@ -208,6 +228,10 @@ button {
   flex-basis: calc((100% - 90px) / 4);
 }
 
+.hidden-section-icon {
+margin: 25px 100px;
+}
+ 
 .hidden-section-item-title {
   font-weight: 700;
   font-size: 14px;
@@ -220,6 +244,15 @@ button {
   line-height: 1.71;
   color: var(--text-color-secondary);
 }
+
+.hidden-section-block {
+width: 270px;
+height: 120px;
+background-color: #f5f4fA;
+border-radius: 4px;
+margin-bottom: 30px;
+}
+
 
 .we-work {
   padding-bottom: 94px;
