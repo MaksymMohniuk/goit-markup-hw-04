@@ -323,6 +323,71 @@ text-align: center;
   text-align: center;
 }
 
+.empoyee-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 16px 32px 30px;
+}
+
+.social-link-item {
+ width: 44px;
+ height: 44px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.social-link-icon {
+  fill: #afb1b8;
+}
+
+.social-link-item:hover .social-link-icon,
+.social-link-item:focus .social-link-icon {
+  fill: var(--text-color-primary);
+  cursor: pointer;
+}
+
+.social-link-item:hover,
+.social-link-item:focus {
+  background-color: var(--accent-color);
+}
+
+.clients {
+  padding: 94px 0;
+}
+
+.clients-list-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
+}
+
+.clients-list {
+  display: flex;
+  gap: 30px;
+}
+
+.clients-list-icon {
+  fill: #afb1b8;
+}
+
+.clients-list-link:hover .clients-list-icon,
+.clients-list-link:focus .clients-list-icon {
+  fill: var(--accent-color);
+  cursor: pointer;
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+  color: var(--accent-color);
+}
+
 .footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -363,6 +428,42 @@ text-align: center;
   margin-bottom: 0;
 }
 
+.footer-title {
+line-height: 1.14;
+text-transform: uppercase;
+color: var(--text-color-primary);
+margin-bottom: 20px;
+}
+
+.footer-social-link {
+ width: 44px;
+ height: 44px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: rgba(255, 255, 255, 0.1);
+ box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
+}
+
+.footer-social-link-icon {
+  fill: #ffffff;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--btn-background-color);
+}
+
+.footer-container {
+  align-items: baseline;
+}
+
 /* Портфоліо */
 
 .portfolio {
@@ -378,6 +479,10 @@ text-align: center;
 .portfolio-link {
   border: 1px solid #eeeeee;
   border-top: none;
+}
+
+.portfolio-link:hover {
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
 }
 
 .portfolio-list {
@@ -407,6 +512,7 @@ text-align: center;
 .portfolio-btn:focus {
   color: var(--text-color-primary);
   background-color: var(--accent-color);
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
 }
 
 .portfolio-list-title {
