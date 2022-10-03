@@ -143,6 +143,7 @@ button {
 .menu-link-mail:hover,
 .menu-link-mail:focus {
   color: var(--accent-color);
+  cursor: pointer;
 }
 
 .menu-link-tel:hover,
@@ -306,21 +307,25 @@ margin-bottom: 30px;
 .team-section-list-wrapper-one {
 padding: 30px 0;
 text-align: center;
+box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .team-section-list-wrapper-two {
 padding: 30px 0;
 text-align: center;
+box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .team-section-list-wrapper-three {
   padding: 30px 0;
   text-align: center;
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .team-section-list-wrapper-four {
   padding: 30px 0;
   text-align: center;
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .empoyee-social-links {
@@ -391,6 +396,16 @@ text-align: center;
 .footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+  gap: 70px;
 }
 
 .footer-logo {
