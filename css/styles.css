@@ -116,6 +116,11 @@ button {
   padding-bottom: 32px;
 }
 
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
 .menu-link-mail,
 .menu-link-tel {
   font-weight: 500;
@@ -124,6 +129,8 @@ button {
   color: var(--text-color-secondary);
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
+  align-items: center;
 }
 
 .menu-link-mail {
@@ -156,6 +163,7 @@ button {
 }
 
 .header-contacts-icon {
+  color: var(--text-color-secondary);
   margin-right: 10px;
 }
 
@@ -489,11 +497,6 @@ margin-bottom: 20px;
   box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
-  cursor: pointer;
-}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -503,6 +506,12 @@ margin-bottom: 20px;
 
 .portfolio-list-item {
   flex-basis: calc((100% - 60px) / 3);
+}
+
+.portfolio-list-item:hover,
+.portfolio-list-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .portfolio-btn {
